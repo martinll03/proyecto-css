@@ -1,0 +1,40 @@
+.contenedor {
+    padding: 20px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 10px;
+    margin: 20px auto; /* Ajuste del margen para centrar el contenedor */
+    width: 50%;
+    position: relative;
+    top: 120px; /* Ajusta según la altura combinada del header y el menú */
+}
+
+input[type="text"]
+,input[type="email"]
+,select
+,textarea{
+    width: 100%;
+    padding: 10;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+
+input[type="submit"]{
+    width: 80%;
+    background-color: rgb(255, 124, 87);
+    color: azure;
+    padding: 25px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 10%;
+}
+
+input:focus, textarea:focus{
+    background-color: rgb(253, 143, 0);
+}
+input[type="submit"]:hover{
+    background-color: brown;
+}
